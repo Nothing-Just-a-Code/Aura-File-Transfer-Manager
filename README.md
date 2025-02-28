@@ -2,7 +2,7 @@
 
 Aura File Transfer Manager is a **VB.NET WinForms application** that enables seamless **file and folder transfers** while maintaining sequence. It supports **chunked file transfer**, **real-time progress tracking**, and **automatic file renaming** while keeping the UI responsive using `async/await` and `IProgress(Of T)`.
 
-![Aura File Transfer Manager](https://via.placeholder.com/800x400?text=Aura+File+Transfer+Manager)
+![aura bot logo](https://github.com/user-attachments/assets/6f4e780a-2c5f-4bc4-8030-3c75555eb7ee)
 
 ---
 
@@ -14,6 +14,7 @@ Aura File Transfer Manager is a **VB.NET WinForms application** that enables sea
 ✅ **Pause, Resume, and Cancel** – Fully controllable file transfers  
 ✅ **Automatic File Renaming** – Saves duplicates as `"file (1).txt", "file (2).txt"`, etc.  
 ✅ **Non-Blocking UI** – Uses **async/await & IProgress(Of T)** for smooth performance  
+✅ **Faster File Transfer** – It transfers file almost 2x more faster than windows default file transfer system  
 
 ---
 
@@ -47,7 +48,9 @@ Aura File Transfer Manager is a **VB.NET WinForms application** that enables sea
 
 | Main UI | File Transfer in Progress |
 |---------|--------------------------|
-| ![UI](https://via.placeholder.com/400x200?text=Main+UI) | ![Progress](https://via.placeholder.com/400x200?text=File+Transfer+Progress) |
+| | ![image](https://github.com/user-attachments/assets/0a5b5210-5704-427c-b2bf-81c68a06b6bf)
+) | ![image](https://github.com/user-attachments/assets/476a9c17-30d7-4f3a-b10f-125e2a4e81e3)
+
 
 
 ## 🤝 Contributing
