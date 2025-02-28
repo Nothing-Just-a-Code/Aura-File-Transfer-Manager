@@ -1,0 +1,16 @@
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\bin\Debug\net8.0-windows\Rapidstar File Transfer Manager.exe
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\bin\Debug\net8.0-windows\Rapidstar File Transfer Manager.deps.json
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\bin\Debug\net8.0-windows\Rapidstar File Transfer Manager.runtimeconfig.json
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\bin\Debug\net8.0-windows\Rapidstar File Transfer Manager.dll
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\bin\Debug\net8.0-windows\Rapidstar File Transfer Manager.pdb
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Rapidstar_File_Transfer_Manager.Form1.resources
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Rapidstar File Transfer Manager.vbproj.GenerateResource.cache
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Rapidstar File Transfer Manager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Rapidstar File Transfer Manager.AssemblyInfoInputs.cache
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Rapidstar File Transfer Manager.AssemblyInfo.vb
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Rapidstar File Transfer Manager.vbproj.CoreCompileInputs.cache
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Rapidstar File Transfer Manager.dll
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\refint\Rapidstar File Transfer Manager.dll
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Rapidstar File Transfer Manager.pdb
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Rapidstar File Transfer Manager.genruntimeconfig.cache
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\ref\Rapidstar File Transfer Manager.dll
