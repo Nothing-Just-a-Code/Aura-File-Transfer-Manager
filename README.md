@@ -20,7 +20,7 @@ Aura File Transfer Manager is a **VB.NET WinForms application** that enables sea
 ## 📥 Installation
 
 1. **Download the latest release** from the [GitHub Releases](https://github.com/your-username/Aura-File-Transfer-Manager/releases).  
-2. Extract the files and run `AuraFileTransferManager.exe`.  
+2. Extract the files and run `Aura File Transfer Manager Setup.exe`.  
 3. Ensure you have **.NET 8 Runtime** installed.  
 
 ---
@@ -28,18 +28,9 @@ Aura File Transfer Manager is a **VB.NET WinForms application** that enables sea
 ## 📌 How to Use
 
 1. **Copy files/folders** to the clipboard (`Ctrl + C`).  
-2. Open **Aura File Transfer Manager** and click **Paste**.  
+2. Right-click inside the folder where you want to paste files and click **Transfer with Aura**. (For Windows 11, Click on **Show More Options** to get full menu)  
 3. Monitor **progress, speed, and ETA** in the UI.  
-4. Use the **Pause, Resume, and Cancel** buttons as needed.  
-
----
-
-## ⚙️ Configuration
-
-Modify the **`settings.json`** file to adjust:  
-- **Transfer speed limits**  
-- **Auto-resume settings**  
-- **File naming preferences**  
+4. Use the **Resume and Cancel** buttons as needed.  
 
 ---
 
