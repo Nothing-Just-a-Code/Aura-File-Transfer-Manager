@@ -45,11 +45,9 @@ Aura File Transfer Manager is a **VB.NET WinForms application** that enables sea
 ---
 
 ## 🖥️ Screenshots
-
 | Main UI | File Transfer in Progress |
 |---------|--------------------------|
-| | ![image](https://github.com/user-attachments/assets/0a5b5210-5704-427c-b2bf-81c68a06b6bf)
-) | ![image](https://github.com/user-attachments/assets/476a9c17-30d7-4f3a-b10f-125e2a4e81e3)
+| ![UI](https://github.com/user-attachments/assets/0a5b5210-5704-427c-b2bf-81c68a06b6bf) | ![Progress](https://github.com/user-attachments/assets/476a9c17-30d7-4f3a-b10f-125e2a4e81e3) |
 
 
 
