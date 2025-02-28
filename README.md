@@ -20,7 +20,7 @@ Aura File Transfer Manager is a **VB.NET WinForms application** that enables sea
 
 ## 📥 Installation
 
-1. **Download the latest release** from the [GitHub Releases](https://github.com/your-username/Aura-File-Transfer-Manager/releases).  
+1. **Download the latest release** from the [GitHub Releases](https://github.com/Nothing-Just-a-Code/Aura-File-Transfer-Manager/releases).  
 2. Extract the files and run `Aura File Transfer Manager Setup.exe`.  
 3. Ensure you have **.NET 8 Runtime** installed.  
 
