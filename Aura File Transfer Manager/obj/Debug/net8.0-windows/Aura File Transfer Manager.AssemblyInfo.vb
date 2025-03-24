@@ -15,11 +15,11 @@ Imports System
 Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Aura"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
- Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84ca07752800c44c3dcce78b5f4c4c78a1aae3f3"),  _
+ Assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Aura"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Aura"),  _
- Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _
+ Assembly: System.Reflection.AssemblyVersionAttribute("2.0.0"),  _
  Assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0"),  _
  Assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")> 
 

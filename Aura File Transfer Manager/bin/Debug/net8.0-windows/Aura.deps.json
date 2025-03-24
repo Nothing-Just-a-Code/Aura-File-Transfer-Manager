@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "Aura/1.0.0": {
+      "Aura/2.0.0": {
         "dependencies": {
           "DevExpress.Win.Design": "24.2.3",
           "Newtonsoft.Json": "13.0.3"
@@ -1428,7 +1428,7 @@
     }
   },
   "libraries": {
-    "Aura/1.0.0": {
+    "Aura/2.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

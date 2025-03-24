@@ -142,6 +142,9 @@ C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Trans
 C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Diagnostics.PerformanceCounter.dll
 C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\bin\Debug\net8.0-windows\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Aura File Transfer Manager.vbproj.AssemblyReference.cache
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Interop.SHDocVw.dll
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Interop.Shell32.dll
+C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Aura File Transfer Manager.vbproj.ResolveComReference.cache
 C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Rapidstar_File_Transfer_Manager.MainForm.resources
 C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Aura File Transfer Manager.vbproj.GenerateResource.cache
 C:\Users\Kabir\source\repos\Rapidstar File Transfer Manager\Rapidstar File Transfer Manager\obj\Debug\net8.0-windows\Aura File Transfer Manager.GeneratedMSBuildEditorConfig.editorconfig
