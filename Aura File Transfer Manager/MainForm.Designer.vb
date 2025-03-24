@@ -30,9 +30,12 @@ Partial Class MainForm
         LabelControl5 = New DevExpress.XtraEditors.LabelControl()
         SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         SimpleButton2 = New DevExpress.XtraEditors.SimpleButton()
+        useSK = New DevExpress.XtraEditors.ToggleSwitch()
+        LabelControl6 = New DevExpress.XtraEditors.LabelControl()
         CType(runatstartup.Properties, ComponentModel.ISupportInitialize).BeginInit()
         CType(checkforupdate.Properties, ComponentModel.ISupportInitialize).BeginInit()
         CType(ComboBoxEdit1.Properties, ComponentModel.ISupportInitialize).BeginInit()
+        CType(useSK.Properties, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' runatstartup
@@ -93,7 +96,7 @@ Partial Class MainForm
         ' LabelControl4
         ' 
         LabelControl4.Anchor = AnchorStyles.Bottom Or AnchorStyles.Right
-        LabelControl4.Location = New Point(488, 296)
+        LabelControl4.Location = New Point(490, 298)
         LabelControl4.Name = "LabelControl4"
         LabelControl4.Size = New Size(69, 13)
         LabelControl4.TabIndex = 6
@@ -101,7 +104,7 @@ Partial Class MainForm
         ' 
         ' LabelControl5
         ' 
-        LabelControl5.Location = New Point(21, 203)
+        LabelControl5.Location = New Point(12, 266)
         LabelControl5.Name = "LabelControl5"
         LabelControl5.Size = New Size(24, 13)
         LabelControl5.TabIndex = 7
@@ -109,7 +112,7 @@ Partial Class MainForm
         ' 
         ' SimpleButton1
         ' 
-        SimpleButton1.Location = New Point(21, 227)
+        SimpleButton1.Location = New Point(12, 290)
         SimpleButton1.Name = "SimpleButton1"
         SimpleButton1.Size = New Size(75, 23)
         SimpleButton1.TabIndex = 8
@@ -117,18 +120,38 @@ Partial Class MainForm
         ' 
         ' SimpleButton2
         ' 
-        SimpleButton2.Location = New Point(102, 227)
+        SimpleButton2.Location = New Point(93, 290)
         SimpleButton2.Name = "SimpleButton2"
         SimpleButton2.Size = New Size(75, 23)
         SimpleButton2.TabIndex = 9
         SimpleButton2.Text = "Clear"
+        ' 
+        ' useSK
+        ' 
+        useSK.Location = New Point(31, 223)
+        useSK.Name = "useSK"
+        useSK.Properties.AllowFocused = False
+        useSK.Properties.OffText = "Disabled"
+        useSK.Properties.OnText = "Enabled"
+        useSK.Size = New Size(116, 21)
+        useSK.TabIndex = 11
+        ' 
+        ' LabelControl6
+        ' 
+        LabelControl6.Location = New Point(21, 204)
+        LabelControl6.Name = "LabelControl6"
+        LabelControl6.Size = New Size(91, 13)
+        LabelControl6.TabIndex = 10
+        LabelControl6.Text = "Use Shortcut Keys"
         ' 
         ' MainForm
         ' 
         Appearance.Options.UseFont = True
         AutoScaleDimensions = New SizeF(6F, 13F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(569, 321)
+        ClientSize = New Size(571, 323)
+        Controls.Add(useSK)
+        Controls.Add(LabelControl6)
         Controls.Add(SimpleButton2)
         Controls.Add(SimpleButton1)
         Controls.Add(LabelControl5)
@@ -149,6 +172,7 @@ Partial Class MainForm
         CType(runatstartup.Properties, ComponentModel.ISupportInitialize).EndInit()
         CType(checkforupdate.Properties, ComponentModel.ISupportInitialize).EndInit()
         CType(ComboBoxEdit1.Properties, ComponentModel.ISupportInitialize).EndInit()
+        CType(useSK.Properties, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -163,4 +187,6 @@ Partial Class MainForm
     Friend WithEvents LabelControl5 As DevExpress.XtraEditors.LabelControl
     Friend WithEvents SimpleButton1 As DevExpress.XtraEditors.SimpleButton
     Friend WithEvents SimpleButton2 As DevExpress.XtraEditors.SimpleButton
+    Friend WithEvents useSK As DevExpress.XtraEditors.ToggleSwitch
+    Friend WithEvents LabelControl6 As DevExpress.XtraEditors.LabelControl
 End Class

@@ -25,10 +25,8 @@ Public Class MainForm
         runatstartup.IsOn = Extras.Aura.RunAtStartup
         checkforupdate.IsOn = Extras.Aura.CheckForUpdateAtStartup
         If Extras.Aura.IsFirstRun = True Then Process.Start(New ProcessStartInfo() With {.FileName = IO.Path.Combine(Application.StartupPath, "Aura Installer.exe"), .UseShellExecute = True})
+        Me.useSK.IsOn = Extras.Aura.UseShortcutKeys
     End Sub
-
-
-
     Sub New()
         InitializeComponent()
         SetConfig()
@@ -77,13 +75,46 @@ Public Class MainForm
         If checkforupdate.IsOn = True Then
             If Not Extras.Aura.CheckForUpdateAtStartup = True Then
                 Extras.Aura.CheckForUpdateAtStartup = True
-                Await Extras.SaveOrWriteConfig()
+                Await Extras.SaveOrWriteConfig
             End If
         Else
             If Not Extras.Aura.CheckForUpdateAtStartup = False Then
                 Extras.Aura.CheckForUpdateAtStartup = False
-                Await Extras.SaveOrWriteConfig()
+                Await Extras.SaveOrWriteConfig
             End If
+        End If
+    End Sub
+
+    Private Async Sub useSK_Toggled(sender As Object, e As EventArgs) Handles useSK.Toggled
+        Dim val As Boolean = useSK.IsOn
+        If val = True Then HookKeyboard() Else UnhookKeyboard()
+            Extras.Aura.UseShortcutKeys = val
+            Await Extras.SaveOrWriteConfig()
+    End Sub
+
+    Private Sub HookKeyboard()
+        KeyboardHook.HookKeyboard()
+        AddHandler KeyboardHook.KeyPressed, AddressOf OnKeyPressed
+    End Sub
+
+    Private Sub UnhookKeyboard()
+        KeyboardHook.UnhookKeyboard()
+        RemoveHandler KeyboardHook.KeyPressed, AddressOf OnKeyPressed
+    End Sub
+
+    Private Sub OnKeyPressed(vkCode As Integer)
+        ' Check if Ctrl + Shift + V is pressed
+        If Control.ModifierKeys = (Keys.Control Or Keys.Shift) AndAlso vkCode = Keys.V Then
+            ' Run GetActiveExplorerFolder asynchronously to avoid COM issues
+            Me.BeginInvoke(Sub()
+                               Dim folderPath As String = FolderPathHelper.GetActiveExplorerFolder()
+                               If IO.Directory.Exists(folderPath) Then
+                                   Dim p As New ProcessStartInfo() With {
+                                   .FileName = IO.Path.Combine(Application.StartupPath, "Aura Transfer.exe"),
+                                   .Arguments = folderPath}
+                                   Process.Start(p)
+                               End If
+                           End Sub)
         End If
     End Sub
 End Class
