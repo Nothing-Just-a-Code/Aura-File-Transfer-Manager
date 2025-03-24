@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("Aura Installer"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+84ca07752800c44c3dcce78b5f4c4c78a1aae3f3"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("Aura Installer"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("Aura Installer"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")> 
