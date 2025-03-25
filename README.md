@@ -17,7 +17,7 @@ Aura File Transfer Manager is a **VB.NET WinForms application** that enables sea
 ✅ **Pause, Resume, and Cancel** – Fully controllable file transfers  
 ✅ **Automatic File Renaming** – Saves duplicates as `"file (1).txt", "file (2).txt"`, etc.  
 ✅ **Non-Blocking UI** – Uses **async/await & IProgress(Of T)** for smooth performance  
-✅ **Faster File Transfer** – It transfers file almost 2x more faster than windows default file transfer system
+✅ **Faster File Transfer** – It transfers file almost 2x more faster than windows default file transfer system  
 ✅ **'CONTROL + SHIFT + V' to paste any file using shortcut key**
 
 ---
