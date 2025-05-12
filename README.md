@@ -71,7 +71,3 @@ This project is licensed under the **GNU General Public License v3.0 (GPL v3)**.
 You are free to **use, modify, and distribute** this software under the terms of **GPL v3**.  
 See the full license [here](https://www.gnu.org/licenses/gpl-3.0.html).
 ---
-
-## Support
-
-[![Buy Me a Coffee](https://img.buymeacoffee.com/button-api/?text=Buy%20me%20a%20coffee&emoji=☕&slug=njac&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff)](https://www.buymeacoffee.com/njac)
