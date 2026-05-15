@@ -79,8 +79,12 @@ Aura replaces the default Windows file copier with a robust, high‑integrity tr
 
 ## 📸 Screenshots
 
-<!-- Add screenshots of the dashboard, job window, conflict dialog, and settings here -->
-*Coming soon*
+<img width="799" height="473" alt="aura main" src="https://github.com/user-attachments/assets/6f177327-f4aa-4d4f-ba2f-278f1ec3c965" />
+
+<img width="495" height="231" alt="aura transfer job" src="https://github.com/user-attachments/assets/8713e337-34dd-4dba-a8d8-80b3a3fb864b" />
+
+<img width="836" height="525" alt="aura settings" src="https://github.com/user-attachments/assets/f3e159f6-af8a-42f6-a498-b12dc5aec52e" />
+
 
 ---
 
@@ -98,4 +102,5 @@ Aura gives you enterprise‑grade file transfer capabilities without paywalls, b
 
 ---
 
-*© [Year] NJAC. All rights reserved.*---
+*© 2026 NJAC. All rights reserved.*
+---
