@@ -5,102 +5,114 @@
 
 ### Precision file mobility for demanding workflows.
 
-Aura replaces the default Windows file copier with a robust, high‑integrity transfer engine wrapped in a polished, intuitive interface. It gives you full control over every operation—pause, resume, verify, skip errors, and resolve conflicts interactively—without compromising speed or reliability.
+Aura is a modern replacement for the Windows file copier that gives you complete command over every transfer. Whether you’re moving a single document, an entire folder tree, or thousands of media assets, Aura ensures the job finishes quickly, accurately, and on your terms. Pause and resume at will, verify that every byte arrived intact, and resolve file conflicts with clarity—all from a clean, intuitive interface.
+
 <img width="4000" height="2180" alt="Aura Main Logo" src="https://github.com/user-attachments/assets/246afcad-009e-436d-91a1-a78adbbbc771" />
 
 ---
-
-## ✨ Key Features
-
-### ⚡ High‑Performance Transfer Engine
-- **Concurrent Processing** – Run up to 10 simultaneous file copies, dynamically balanced to keep your storage saturated without overloading the system.
-- **Asynchronous I/O** – Non‑blocking read/write operations keep the interface responsive, even during massive transfers.
-- **Background Verification** – Integrity checks run on a dedicated thread pool, allowing new copies to start while previous files are verified.
-
-### 🛡️ Data Integrity & Verification
-- **Quick Verification (xxHash3)** – Hardware‑accelerated, non‑cryptographic hashing with negligible performance impact.
-- **Full Verification (SHA‑256)** – FIPS‑compliant cryptographic hash that mathematically guarantees copy fidelity.
-- **Automatic Remediation** – Corrupted destination files are deleted immediately; progress is rolled back to reflect only verified data.
-
-### 🔀 Intelligent Conflict Resolution
-- **Auto‑Skip Identical Files** – Files with matching size and last‑modified time are silently skipped, saving time.
-- **Interactive Dialog** – A custom prompt shows full source/destination metadata (path, size, date, checksum) for informed decisions.
-- **Three‑Way Action** – Overwrite, Skip, or Rename the incoming file with one click.
-- **Apply to All** – Propagate your choice to all subsequent conflicts within the same job.
-
-### 🧵 Job Lifecycle Control
-- **Independent Pause/Resume** – Pause any job individually without affecting others.
-- **Cancellable Transfers** – Cancel on demand; partially‑written files are deleted and progress counters are rolled back.
-- **Resume Interrupted Copies** – Pick up incomplete transfers from the exact byte offset, avoiding redundant work.
-
-### 🔄 Error Recovery & Resilience
-- **Configurable Retries** – Set the number of automatic retries and the delay between attempts.
-- **Fault Isolation** – When one file fails, other files continue processing (unless you choose to stop the job on first error).
-- **Transient Recovery** – Temporary I/O hiccups, anti‑virus locks, and device disconnections trigger automatic retries.
-
-### 🗂️ Full Folder & File Handling
-- **Recursive Directory Preservation** – The complete folder tree, including the source folder itself and all subdirectories, is recreated at the destination.
-- **Mixed Source Support** – Select files, folders, or any combination; the engine enumerates all nested content automatically.
-- **Free Space Pre‑Check** – Verifies sufficient destination space before the first byte is written; aborts cleanly if not.
-- **Move Operations** – After successful copy and verification, source files are deleted, leaving no remnants.
-
-### 🖥️ System‑Level Integration
-- **Keyboard Interception** – A global listener detects `Ctrl+V` system‑wide and redirects paste operations to Aura, replacing the default Windows copier.
-- **Copy/Move Detection** – Automatically distinguishes between a Copy (`Ctrl+C`) and a Cut (`Ctrl+X`) via the clipboard’s drop effect flag.
-- **Context Menu Entry** – Add “Paste with Aura” to the right‑click menu of folder backgrounds and folder icons for instant access.
-
-### 📊 Real‑Time Progress & Feedback
-- **Dual‑Level Progress** – Track both per‑file (percentage, speed, ETA) and overall job progress simultaneously.
-- **Instant Updates** – Progress refreshes on every I/O cycle with no artificial throttling, giving you live, granular feedback.
-- **Visual File Tracking** – An icon‑based list displays every file with its current state: `Waiting` → `Transferring` → `Done` / `Failed` / `Skipped`.
-- **Job‑Specific Windows** – Each transfer runs in its own modeless window with full progress details and dedicated pause/resume/cancel controls.
-
-### ⚙️ Customisable Performance & Behavior
-- **Buffer Size Presets** – Choose from six levels (64 KB to 16 MB) with clear descriptions and memory‑usage warnings.
-- **Adjustable Parallelism** – Set the maximum number of simultaneous file copies (1–10) to match your hardware.
-- **Global Defaults** – Configure preferred overwrite mode, verification level, retry count, retry delay, and more; override per‑job as needed.
-- **Resume Partial Files** – Optionally skip already‑transferred data when resuming an interrupted copy.
-
-### 🧰 Diagnostics & Maintenance
-- **Structured Logging** – All engine events (job start, file completion, errors, cancellations) are recorded with timestamps and contextual data.
-- **Rolling Log Files** – Daily logs with automatic retention ensure traceability without manual cleanup.
+Here’s a polished, user‑facing product description with feature highlights suitable for a website, software directory, or marketing page. It focuses entirely on what Aura does for the user—no technical implementation details.
 
 ---
 
-## 🚀 Quick Start
+### ⚡ Blazing‑Fast Transfers That Keep You Working
 
-1. **Download** the latest installer from the [Releases](../../releases) page.
-2. **Install** with the provided setup wizard.
-3. **Copy** files as usual (`Ctrl+C` or right‑click → Copy).
-4. **Paste** anywhere (`Ctrl+V` or right‑click → Paste with Aura) – the transfer is handled automatically by Aura.
-5. **Monitor** progress in the job window that opens; pause, resume, or cancel at any time.
+- **Transfer multiple files at once**  
+  Aura moves up to ten files simultaneously, dramatically reducing the time needed for large batches. Your storage hardware stays fully utilized without freezing your computer.
 
----
+- **Instant responsiveness**  
+  Even the heaviest transfers never lock up the interface. You can keep working, browse folders, or adjust settings while Aura handles the heavy lifting.
 
-## 📸 Screenshots
-
-<img width="799" height="473" alt="aura main" src="https://github.com/user-attachments/assets/6f177327-f4aa-4d4f-ba2f-278f1ec3c965" />
-
-<img width="495" height="231" alt="aura transfer job" src="https://github.com/user-attachments/assets/8713e337-34dd-4dba-a8d8-80b3a3fb864b" />
-
-<img width="836" height="525" alt="aura settings" src="https://github.com/user-attachments/assets/f3e159f6-af8a-42f6-a498-b12dc5aec52e" />
-
+- **Resume interrupted copies**  
+  If a transfer is stopped—by a disconnected drive, power outage, or manual pause—Aura picks up exactly where it left off. No wasted time re‑copying data you already moved.
 
 ---
 
-## 📜 License
+### 🛡️ Absolute Confidence in Every Copy
 
-This project is licensed under a custom open‑source license.  
-You are free to use the software at no charge. Modified versions must credit **NJAC**, and selling copies of the software is strictly prohibited.  
-See the [LICENSE](LICENSE) file for the full text.
+- **Built‑in integrity checks**  
+  Aura can automatically verify that each copied file matches the original, using industry‑standard hash algorithms. You choose between a lightning‑fast check or a cryptographically secure verification.
+
+- **Self‑healing on failure**  
+  If a file fails verification, the corrupted copy is deleted immediately and clearly flagged. Your progress bar reflects only the files that truly succeeded.
+
+- **Smart skip of unchanged files**  
+  Files that already exist in the destination with identical size and date are automatically skipped, saving you time and preventing unnecessary overwrites.
 
 ---
 
-## 🌟 Why Aura?
+### 🔀 Conflict Resolution That Respects Your Decisions
 
-Aura gives you enterprise‑grade file transfer capabilities without paywalls, bloat, or compromise. It’s built for professionals who demand absolute reliability and control—whether you’re moving terabytes of media, synchronising directory trees, or managing archival data.
+- **Informed choices**  
+  When a file name already exists, Aura shows you both the source and destination details—path, size, modification date—so you can decide with confidence.
+
+- **Three simple actions**  
+  Overwrite the old file, keep the existing one, or save both by auto‑renaming the incoming file. One click is all it takes.
+
+- **Apply to all**  
+  Set your preference once, and Aura will handle every other conflict in the same job automatically, eliminating repetitive prompts.
 
 ---
 
-*© 2026 NJAC. All rights reserved.*
+### 🧵 Full Control Over Every Job
+
+- **Independent pause and resume**  
+  Pause any transfer without affecting others. Resume when you’re ready—today, tomorrow, or after a system restart.
+
+- **Cancel without leftover clutter**  
+  Stop a job at any time. Aura cleans up partially written files instantly, leaving your destination folder tidy.
+
+- **Safe move operations**  
+  When you cut and paste (or request a move), Aura copies first, verifies if you wish, and only then removes the originals. No data is lost if something goes wrong mid‑transfer.
+
 ---
+
+### 🖥️ Works the Way Windows Should
+
+- **Seamless keyboard integration**  
+  Press `Ctrl+V` anywhere in Windows, and Aura takes over the paste automatically—no extra clicks needed.
+
+- **Right‑click menu entry**  
+  A “Paste with Aura” command appears in the folder context menu for quick access, even when you’re browsing files.
+
+- **Understands copy vs. cut**  
+  Aura detects whether you copied or cut files from the clipboard and performs the correct operation automatically.
+
+---
+
+### 📊 Live Progress That Tells the Whole Story
+
+- **Overall and per‑file progress**  
+  See both the total job completion and the status of each individual file in real time.
+
+- **Instant speed and ETA**  
+  Know exactly how fast data is moving and when the job will finish, updated continuously.
+
+- **Visual file tracking**  
+  An icon‑based list shows every file transitioning from waiting to transferring to done, failed, or skipped—giving you a clear picture of your job.
+
+- **Dedicated job windows**  
+  Each transfer opens in its own window with full controls, so you can monitor multiple jobs at once and keep an eye on every detail.
+
+---
+
+### ⚙️ Tuned to Your Needs
+
+- **Adjustable speed settings**  
+  Choose from six performance profiles to balance transfer speed against memory usage, depending on what your system can handle comfortably.
+
+- **Flexible concurrency**  
+  Decide how many files Aura copies at once—from a single sequential copy up to ten in parallel.
+
+- **Default behaviors you control**  
+  Set your preferred overwrite rule, verification level, number of retries, and more. Every setting can be overridden per transfer.
+
+---
+
+### 🧰 Built‑in Diagnostics
+
+- **Detailed activity logs**  
+  Aura keeps a rolling record of every job, every file, and every error, so you can review what happened or share information with support if needed.
+
+---
+
+**Aura File Transfer Manager** – Reclaim control over your file transfers.
