@@ -9,8 +9,6 @@ Aura is a modern replacement for the Windows file copier that gives you complete
 
 <img width="4000" height="2180" alt="Aura Main Logo" src="https://github.com/user-attachments/assets/246afcad-009e-436d-91a1-a78adbbbc771" />
 
----
-Here’s a polished, user‑facing product description with feature highlights suitable for a website, software directory, or marketing page. It focuses entirely on what Aura does for the user—no technical implementation details.
 
 ---
 
